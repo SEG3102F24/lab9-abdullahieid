@@ -4,8 +4,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class TempConverterApiApplication
+class Application
 
 fun main(args: Array<String>) {
-	runApplication<TempConverterApiApplication>(*args)
+	runApplication<Application>(*args)
 }
